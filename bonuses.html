@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мои бонусы - TechnoLife</title>
+    <link rel="stylesheet" href="/static/css/bonuses.css">
+    <link rel="stylesheet" href="/static/css/gift-cards.css">
+    <link rel="stylesheet" href="/css/fontawesome/fontawesome-free-6.7.2-web/css/fontawesome.min.css">
+    <link rel="stylesheet" href="/css/fontawesome/fontawesome-free-6.7.2-web/css/solid.min.css">
+    <link rel="stylesheet" href="/css/fontawesome/fontawesome-free-6.7.2-web/css/brands.min.css">
+    <link rel="stylesheet" href="/css/fontawesome/fontawesome-free-6.7.2-web/css/regular.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <a href="index.html" class="logo">
+                <img src="https://cdn-icons-png.flaticon.com/512/1682/1682308.png" alt="TechnoLife">
+                <span>TechnoLife</span>
+            </a>
+        </div>
+    </header>
+    <main class="main-content">
+        <div class="bonuses-title">Ваши бонусы</div>
+        <div class="bonuses-amount" id="bonusesAmount">0</div>
+        <form class="promo-form" id="promoForm" autocomplete="off">
+            <input type="text" id="promoInput" placeholder="Введите промокод" required>
+            <button type="submit">Активировать</button>
+        </form>
+        <div class="promo-result" id="promoResult"></div>
+    </main>
+    <script src="/static/js/bonuses.js"></script>
+</body>
+</html>
